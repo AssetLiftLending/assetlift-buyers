@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://assetlift-buyers.vercel.app/sitemap.xml

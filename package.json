@@ -1,0 +1,8 @@
+{
+  "name": "assetlift-buyers",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "dev": "vercel dev", "build": "node scripts/validate.mjs" },
+  "engines": { "node": ">=20" },
+  "devDependencies": { "vercel": "latest" }
+}
