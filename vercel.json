@@ -1,7 +1,18 @@
 {
   "outputDirectory": ".",
-  "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/camden-county-nj", "destination": "/camden-county-nj.html" },
+    { "source": "/how-it-works", "destination": "/how-it-works.html" },
+    { "source": "/locations", "destination": "/locations.html" },
+    { "source": "/monmouth-county-nj", "destination": "/monmouth-county-nj.html" },
+    { "source": "/ocean-county-nj", "destination": "/ocean-county-nj.html" },
+    { "source": "/privacy", "destination": "/privacy.html" },
+    { "source": "/sell-distressed-house", "destination": "/sell-distressed-house.html" },
+    { "source": "/sell-inherited-house", "destination": "/sell-inherited-house.html" },
+    { "source": "/sell-land", "destination": "/sell-land.html" }
+  ],
   "headers": [{
     "source": "/(.*)",
     "headers": [
