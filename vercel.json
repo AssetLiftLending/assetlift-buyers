@@ -3,15 +3,23 @@
   "trailingSlash": false,
   "rewrites": [
     { "source": "/about", "destination": "/about.html" },
+    { "source": "/atlantic-county-nj", "destination": "/atlantic-county-nj.html" },
+    { "source": "/burlington-county-nj", "destination": "/burlington-county-nj.html" },
     { "source": "/camden-county-nj", "destination": "/camden-county-nj.html" },
+    { "source": "/gloucester-county-nj", "destination": "/gloucester-county-nj.html" },
     { "source": "/how-it-works", "destination": "/how-it-works.html" },
     { "source": "/locations", "destination": "/locations.html" },
     { "source": "/monmouth-county-nj", "destination": "/monmouth-county-nj.html" },
+    { "source": "/nassau-county-ny", "destination": "/nassau-county-ny.html" },
     { "source": "/ocean-county-nj", "destination": "/ocean-county-nj.html" },
+    { "source": "/orange-county-ny", "destination": "/orange-county-ny.html" },
     { "source": "/privacy", "destination": "/privacy.html" },
+    { "source": "/rockland-county-ny", "destination": "/rockland-county-ny.html" },
     { "source": "/sell-distressed-house", "destination": "/sell-distressed-house.html" },
     { "source": "/sell-inherited-house", "destination": "/sell-inherited-house.html" },
-    { "source": "/sell-land", "destination": "/sell-land.html" }
+    { "source": "/sell-land", "destination": "/sell-land.html" },
+    { "source": "/suffolk-county-ny", "destination": "/suffolk-county-ny.html" },
+    { "source": "/westchester-county-ny", "destination": "/westchester-county-ny.html" }
   ],
   "headers": [{
     "source": "/(.*)",

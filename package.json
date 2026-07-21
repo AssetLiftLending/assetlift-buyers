@@ -2,7 +2,7 @@
   "name": "assetlift-buyers",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "dev": "vercel dev", "build": "node scripts/validate.mjs" },
+  "scripts": { "dev": "vercel dev", "generate:locations": "node scripts/generate-location-pages.mjs", "seo:audit": "node scripts/seo-audit.mjs", "build": "node scripts/validate.mjs" },
   "engines": { "node": ">=20" },
   "devDependencies": { "vercel": "latest" }
 }
